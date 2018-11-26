@@ -38,8 +38,7 @@ function viewCart() {
 
 function total() {
   let runningTotal = 0;
-  let x;
-  for (x of cart) {
+  for (let x of cart) {
    if (typeof x === "number") {
    runningTotal += x;
   } 
